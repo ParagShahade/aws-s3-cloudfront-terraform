@@ -1,12 +1,21 @@
-# Simple Terraform Variables for YouTube-like Service
+# HA-Enabled Terraform Variables for YouTube-like Service
 # Copy this file to terraform.tfvars and customize the values
 
 # AWS Configuration
 aws_region = "us-east-1"
+secondary_region = "us-west-2"
+europe_region = "eu-west-1"
 environment = "prod"
 
 # Service Configuration
 service_name = "youtube-clone"
+
+# High Availability
+enable_ha = true
+enable_europe = true
+
+# CloudFront Configuration
+cloudfront_price_class = "PriceClass_All"  # Options: PriceClass_All, PriceClass_200, PriceClass_100
 
 # Alert Configuration
 alert_email = "admin@yourdomain.com"
