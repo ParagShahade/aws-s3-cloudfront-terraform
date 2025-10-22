@@ -11,11 +11,6 @@ A cost-effective video hosting service using S3 and CloudFront, designed to stay
 - **CloudFront**: Global CDN for video delivery
 - **Monitoring**: Cost alerts at $900 threshold
 
-## Cost (Monthly)
-- S3 Storage: $23-50
-- CloudFront: $85-200
-- **Total: $114-270** (well within $1000 budget)
-
 ## Quick Start
 
 1. **Setup**
