@@ -1,0 +1,12 @@
+# Simple Terraform Variables for YouTube-like Service
+# Copy this file to terraform.tfvars and customize the values
+
+# AWS Configuration
+aws_region = "us-east-1"
+environment = "prod"
+
+# Service Configuration
+service_name = "youtube-clone"
+
+# Alert Configuration
+alert_email = "admin@yourdomain.com"
